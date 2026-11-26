@@ -24,6 +24,9 @@ string selection_policy
 string gripper_name
 int32 num_grasps
 int32 top_k
+# Nonempty request ID elects file exchange. The view names a subdirectory of the request.
+string exchange_request_id
+string exchange_view
 ---
 bool success
 bool mock

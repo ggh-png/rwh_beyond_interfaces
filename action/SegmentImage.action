@@ -6,6 +6,9 @@ bool use_selection_point
 uint32 selection_u
 uint32 selection_v
 string selection_policy
+# Nonempty request ID elects file exchange. The view names a subdirectory of the request.
+string exchange_request_id
+string exchange_view
 ---
 bool success
 # Structured error; do not parse message to determine the failure kind.

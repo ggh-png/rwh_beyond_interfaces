@@ -1,5 +1,5 @@
-# mode=1 runs the pick tree; mode=2 runs the guarded place/release tree.
-# mode=0 remains a legacy alias for mode=1 when behavior_tree is empty.
+# mode=0 runs pick with direct inference; mode=1 runs pick with file exchange.
+# mode=2 runs the guarded place/release tree.
 uint8 MODE_PICK=1
 uint8 MODE_PLACE=2
 uint8 mode
